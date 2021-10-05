@@ -11636,3 +11636,7 @@ hr:not([size]) {
     width: 1000px;
     height: 1px;
 }
+footer {
+    padding: 5rem 0;
+    text-align: center;
+}
