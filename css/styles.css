@@ -427,6 +427,8 @@ button:not(:disabled),
     cursor: pointer;
 }
 
+
+
 ::-moz-focus-inner {
     padding: 0;
     border-style: none;
@@ -440,6 +442,7 @@ textarea {
 
     top: 50%;
     transform: translateY(-50%);
+  
 
 
 }
@@ -447,8 +450,9 @@ textarea {
 .text-middle{
     font-size: 500%;
     font-weight: bold;
-    opacity: 90%;
-
+    opacity: 100% !important;
+  
+   
 }
 
 fieldset {
@@ -4022,6 +4026,12 @@ fieldset:disabled .btn {
     top: 100%;
     left: 0;
     margin-top: 0.125rem;
+}
+
+.dropdown-menu{
+    opacity: 40%;
+
+
 }
 
 .dropdown-menu-start {
