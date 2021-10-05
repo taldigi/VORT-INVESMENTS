@@ -444,6 +444,13 @@ textarea {
 
 }
 
+.text-middle{
+    font-size: 500%;
+    font-weight: bold;
+    opacity: 90%;
+
+}
+
 fieldset {
     min-width: 0;
     padding: 0;
