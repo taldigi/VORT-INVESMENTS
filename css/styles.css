@@ -436,6 +436,14 @@ textarea {
     resize: vertical;
 }
 
+.carousel-caption{
+
+    top: 50%;
+    transform: translateY(-50%);
+
+
+}
+
 fieldset {
     min-width: 0;
     padding: 0;
@@ -443,6 +451,9 @@ fieldset {
     border: 0;
 }
 
+.logo {
+    width: 30%;
+}
 legend {
     float: left;
     width: 100%;
