@@ -11682,3 +11682,7 @@ padding-bottom:2% ;
     font-size: 120%;
 
 }
+section {
+    padding-top: 2%;
+    display: block;
+}
