@@ -11689,7 +11689,7 @@ section {
 }
 .energy_home{
 
-    background-color: #5b6b80;
+    background-color: black;
     color: whitesmoke;
 }
 .energy_home_lrtters{
@@ -11699,3 +11699,40 @@ section {
 .start_up_home{
     background-color: #dae2ea;
 }
+
+
+.carousel-fade .carousel-item.active, .carousel-fade .carousel-item-next.carousel-item-start, .carousel-fade .carousel-item-prev.carousel-item-end {
+    z-index: 1;
+    opacity: 1;
+    background: #101214;
+
+}
+
+.video-small{
+
+    width: 105%;
+
+
+}
+
+.img-fluid-about{
+    
+    width: 130%;
+
+}
+
+.background-vort {
+    background-color: grey !important;
+}
+
+
+.hide-vort{
+    display: none;
+
+
+
+}
+
+
+
+

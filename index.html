@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Grayscale - Start Bootstrap Theme</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>Vort Investments</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 </head>
@@ -45,12 +46,10 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="about.html">About Us</a>
-                            <a class="dropdown-item" href="what_we_do.html">What We Do</a>
-                            <a class="dropdown-item" href="news.html">News</a>
-                            <a class="dropdown-item" href="privacy.html">Privacy Policy</a>
+                            <a class="dropdown-item" href="what_we_do.html">What We Do</a>         
                         </div>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown hide-vort">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Services
@@ -63,11 +62,11 @@
                             <a class="dropdown-item" href="#">Start Up</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="our_mission.html">Our Mission </a></li>
-                    <li class="nav-item"><a aria-haspopup="true" aria-expanded="false" class="nav-link"
+                    <li class="nav-item hide-vort"><a class="nav-link" href="our_mission.html">Our Mission </a></li>
+                    <li class="nav-item hide-vort"><a aria-haspopup="true" aria-expanded="false" class="nav-link"
                             href="investment.html">Investment Approach</a></li>
                     <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 
                 </ul>
 
@@ -179,7 +178,7 @@
                 </div>
 
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/z/stock-photo-co-working-conference-business-team-meeting-present-investor-colleagues-discussing-new-plan-770002474.jpg"
+                    <img src="assets/img/businessman-touch-graph-improve-suggest-more-SBI-301984701.jpg"
                         class="img-fluid" alt="">
                 </div>
 
@@ -218,6 +217,7 @@
 
                         <div class="about_home">
                             <h1>About Vort Investments </h1>
+                            <br>
                             <p>
                                 Vort Investments is UK based and operated but with a “Global Focus” and will therefore
                                 consider investment opportunities all kind as our “Global Network” of client’s,
@@ -235,7 +235,7 @@
                 </div>
 
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/z/stock-photo-handshake-across-the-table-of-financial-partners-1850831317.jpg"
+                    <img src="assets/img/about_vort.jpg"
                         class="img-fluid" alt="">
                 </div>
 
@@ -248,12 +248,12 @@
         <div class="container px-4 px-lg-5">
             <!-- Featured Project Row-->
             <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg"
+                <div  data-aos="fade-right" class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/modern-glass-buildings.jpg"
                         alt="..." /></div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
                         <h4>What We Do </h4>
-                        <p class="text-black-50 mb-0">Vort Investments provides a wide range of wealth management,
+                        <p  data-aos="fade-left" class="text-black-50 mb-0">Vort Investments provides a wide range of wealth management,
                             financial service and support all driven by intelligent and trusted relationships to
                             exceptional and diversified client base that includes private corporations, government
                             individuals, high net-worth families, and Entrepreneurs in the UK, and across border – we
@@ -268,18 +268,19 @@
             </div>
             <!-- Project One Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                <div data-aos="flip-right" class="col-lg-6"><img class="img-fluid"  src="assets/img/detail-of-female-doctors-hands-holding-pills-SBI-305124658.jpg" alt="..." /></div>
                 <div class="col-lg-6">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Healthcare</h4>
-                                <p class="mb-0 text-white-50">Vort Investments focus on partnering with promising
+                                <p class="mb-0 text-white">Vort Investments focus on partnering with promising
                                     regional healthcare companies at all stages from early-stage companies testing
                                     transformative technologies to commercial-stage companies seeking additional growth
                                     in various sectors, including biopharmaceuticals, medical devices and digital
                                     health.</p>
-                                <a class="btn btn-primary" href="#about">Read more...</a>
+                                    <br><br>
+                                <a class="btn btn-light" href="#about">Read more...</a>
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                             </div>
                         </div>
@@ -288,20 +289,21 @@
             </div>
             <!-- Project Two Row-->
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+                <div class="col-lg-6"><img data-aos="flip-left"  class="img-fluid" src="assets/img/businessman-using-digital-tablet-show-the-city-skyline-on-virtual-screensmart-city-and-SBI-301985065.jpg" alt="..." /></div>
                 <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-right">
                                 <h4 class="text-white">Technology</h4>
-                                <p class="mb-0 text-white-50">Digital transformation is no longer a ‘nice to have’ but
+                                <p class="mb-0 text-white">Digital transformation is no longer a ‘nice to have’ but
                                     has become a ‘business imperative’ as technology continues to advance day-by-day at
                                     exponential rates, changing the face of society and industry in the best possible
                                     ways. Driven by global needs such as sustainability, health‐care and efficiency in
                                     industrial processes, many of these technology advancements address large markets,
                                     positively impacting our future.</p>
-                                <a class="btn btn-primary" href="#about">Read more...</a>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
+                                    <br><br>
+                                <a class="btn btn-light" href="#about">Read more...</a>
+                                <hr class="d-none d-lg-block mb-0 me-0"/>
                             </div>
                         </div>
                     </div>
@@ -312,54 +314,14 @@
     <!-- Signup-->
 
     <!-- Contact-->
-    <section class="contact-section bg-black">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Address</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-envelope text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Email</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-3 mb-md-0">
-                    <div class="card py-4 h-100">
-                        <div class="card-body text-center">
-                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                            <h4 class="text-uppercase m-0">Phone</h4>
-                            <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50">+1 (555) 902-8832</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
-            </div>
-        </div>
-    </section>
+
     <!-- ======= Features Section Real estate======= -->
     <section id="real_estate_home" class="reareal_estate_home" id="real_estate_home">
         <div class="container " data-aos="fade-up">
             <div class="row gx-0">
 
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/z/stock-photo-real-estate-broker-residential-house-and-car-rent-listing-contract-1141644755.jpg"
+                    <img src="assets/img/a-small-house-SBI-300002904.jpg"
                         class="img-fluid" alt="">
                 </div>
 
@@ -374,7 +336,7 @@
                                 through mixed real estate investments as its one of the oldest and most stable methods
                                 for creating wealth.
                             </p>
-                            <p><a class="btn btn-primary" href="#about">Read more...</a></p>
+                            <p><a class="btn btn-dark" href="#about">Read more...</a></p>
 
                         </div>
                     </div>
@@ -391,12 +353,14 @@
             <div class="row gx-0">
 
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/image-photo/biogas-plant-stands-behind-rape-600w-1572926665.jpg"
-                        class="img-fluid" alt="">
+                    <video class="video-small" autoplay loop muted>
+                        <source src="assets/videos/green-energy-plans-SBV-309243136-HD.mp4" type="video/mp4" />
+                    </video>
                 </div>
                 <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/image-photo/green-energy-sustainable-development-solar-600w-1441125092.jpg"
-                        class="img-fluid" alt="">
+                    <video class="video-small" autoplay loop muted>
+                        <source src="assets/videos/long-rows-of-photovoltaic-solar-panels-on-green-field-at-sunny-day-aerial-landscape-SBV-329785668-HD.mp4" type="video/mp4" />
+                    </video>
                 </div>
 
 
@@ -434,7 +398,7 @@
             <div class="row gx-0">
 
                 <div class="col-lg-4 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/image-photo/biogas-plant-stands-behind-rape-600w-1572926665.jpg"
+                    <img src="assets/img/biogas-g13f4f9cbf_1920.jpg"
                         class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-4 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
@@ -450,7 +414,7 @@
                  
                 </div>
                 <div class="col-lg-4 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                    <img src="https://image.shutterstock.com/image-photo/green-energy-sustainable-development-solar-600w-1441125092.jpg"
+                    <img src="assets/img/biogas-g13f4f9cbf_1920.jpg"
                         class="img-fluid" alt="">
                 </div>
 
@@ -490,6 +454,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
 
