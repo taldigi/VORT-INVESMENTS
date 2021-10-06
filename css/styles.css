@@ -427,8 +427,6 @@ button:not(:disabled),
     cursor: pointer;
 }
 
-
-
 ::-moz-focus-inner {
     padding: 0;
     border-style: none;
@@ -438,21 +436,15 @@ textarea {
     resize: vertical;
 }
 
-.carousel-caption{
-
+.carousel-caption {
     top: 50%;
     transform: translateY(-50%);
-  
-
-
 }
 
-.text-middle{
+.text-middle {
     font-size: 500%;
     font-weight: bold;
     opacity: 100% !important;
-  
-   
 }
 
 fieldset {
@@ -465,6 +457,7 @@ fieldset {
 .logo {
     width: 30%;
 }
+
 legend {
     float: left;
     width: 100%;
@@ -4028,10 +4021,8 @@ fieldset:disabled .btn {
     margin-top: 0.125rem;
 }
 
-.dropdown-menu{
+.dropdown-menu {
     opacity: 40%;
-
-
 }
 
 .dropdown-menu-start {
@@ -8696,11 +8687,6 @@ fieldset:disabled .btn {
     background-color: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
 }
 
-.bg-light {
-    --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
-}
-
 .bg-dark {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
@@ -11636,103 +11622,113 @@ hr:not([size]) {
     width: 1000px;
     height: 1px;
 }
+
 footer {
     padding: 5rem 0;
     text-align: center;
 }
-.about_us{
+
+.about_us {
     color: #dde6e9;
     padding-top: 7rem;
     background-color: #101214;
 }
-.about_session1{
+
+.about_session1 {
     padding-bottom: 3rem;
 }
 
-
-.textBlack{
-
+.textBlack {
     color: #000 !important;
-
-
 }
-.about_home{
-padding-bottom:2% ;
 
+.about_home {
+    padding-bottom: 2%;
 }
-.real_estate_home{
+
+.real_estate_home {
     padding-top: 2%;
-    background-color: #116776;  
+    background-color: #116776;
 }
 
-.real_div{
-
-}
-
-
+.real_div {}
 
 .text-top {
     color: #00aeef;
     font-weight: bold;
 }
 
-.word{
-
+.word {
     color: black;
     font-size: 120%;
-
 }
+
 section {
     padding-top: 2%;
     padding-bottom: 2%;
     display: block;
 }
-.energy_home{
 
+.energy_home {
     background-color: black;
     color: whitesmoke;
 }
-.energy_home_lrtters{
 
+.energy_home_lrtters {
     padding-top: 2%;
 }
-.start_up_home{
+
+.start_up_home {
     background-color: #dae2ea;
 }
 
-
-.carousel-fade .carousel-item.active, .carousel-fade .carousel-item-next.carousel-item-start, .carousel-fade .carousel-item-prev.carousel-item-end {
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-start,
+.carousel-fade .carousel-item-prev.carousel-item-end {
     z-index: 1;
     opacity: 1;
     background: #101214;
-
 }
 
-.video-small{
-
+.video-small {
     width: 105%;
-
-
 }
 
-.img-fluid-about{
-    
+.img-fluid-about {
     width: 130%;
-
 }
 
 .background-vort {
     background-color: grey !important;
 }
 
-
-.hide-vort{
+.hide-vort {
     display: none;
-
-
-
 }
 
+.What_We_Do {
+    background-color: #00aeef!important;
+    z-index: 100;
+    color: #000;
+    font-weight: 299 !important;
+}
 
+.map-container-5 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
 
+.map-container-5 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 
+.map-container-5 {
+    width: 220%;
+    height: 220%;
+}
